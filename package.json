@@ -1,0 +1,29 @@
+{
+  "name": "kodilla-example",
+  "version": "1.0.0",
+  "description": "example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "kodilla-tst"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/85bogdan/projekt.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/85bogdan/projekt/issues"
+  },
+  "homepage": "https://github.com/85bogdan/projekt#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
