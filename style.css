@@ -115,11 +115,11 @@ section > .container {
 
 h1, h2, h3, h4 {
   text-transform: uppercase;
-  color: #313332; }
+  color: grey; }
 
 /*naglowek*/
 header {
-  background-color: #313332;
+  background-color: grey;
   height: 50px; }
   header nav img {
     padding: 10px 0; }
@@ -134,11 +134,11 @@ header {
         line-height: 50px;
         padding: 0 20px;
         display: block;
-        color: #FFFFFF;
+        color: black;
         text-decoration: none;
         text-transform: uppercase; }
         header nav ul li a:hover {
-          color: #0CC2DA; }
+          color: blue; }
 
 /*sekcja powitalna */
 .hero {
@@ -154,7 +154,7 @@ header {
   .hero .slogan {
     background-color: rgba(0, 0, 0, 0.5); }
     .hero .slogan h1 {
-      color: #FFFFFF;
+      color: black;
       font-weight: bold; }
 
 /*sekcja korzysci*/
@@ -165,17 +165,17 @@ header {
     width: 60px;
     height: 60px;
     border: 0;
-    background-color: #313332;
+    background-color: grey;
     border-radius: 10%;
     font-size: 50px;
     line-height: 60px;
     padding: 0;
-    color: #FFFFFF;
+    color: black;
     cursor: pointer; }
   .advantages a:hover i {
-    background-color: #0CC2DA; }
+    background-color: blue; }
   .advantages a:hover h3 {
-    color: #0CC2DA; }
+    color: blue; }
 
 /*galeria*/
 .gallery .col {
@@ -234,7 +234,7 @@ header {
       height: 20px;
       left: calc(50% - 45px);
       top: calc(50% - 10px);
-      color: #FFFFFF;
+      color: black;
       font-size: 15px; }
 
 .team .col:hover .layer {
@@ -249,25 +249,25 @@ header {
 /*sekcja z liczbami*/
 .numbers .word {
   text-transform: uppercase;
-  color: #0CC2DA;
+  color: blue;
   font-weight: bold; }
 
 /*stopka*/
 .footer {
-  color: #FFFFFF;
-  background-color: #313332; }
+  color: black;
+  background-color: grey; }
   .footer .col {
     text-align: left; }
     .footer .col h2 {
-      color: #FFFFFF;
-      background-color: #313332;
+      color: black;
+      background-color: grey;
       position: relative;
       display: inline-block; }
     .footer .col h2::after {
       content: '';
       width: 90px;
       height: 2px;
-      background: #FFFFFF;
+      background: black;
       position: absolute;
       right: -100px;
       top: 15px;
@@ -280,15 +280,15 @@ header {
       height: 30px;
       line-height: 30px;
       border: none;
-      background-color: #0CC2DA;
-      color: #FFFFFF;
+      background-color: blue;
+      color: black;
       font-size: 20px;
       margin: 8px;
       cursor: pointer;
       text-align: center; }
   .footer .copyright {
     background-color: #252726;
-    color: #FFFFFF;
+    color: black;
     margin: 0 auto;
     text-align: center; }
     .footer .copyright p {
